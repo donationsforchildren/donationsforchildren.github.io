@@ -19,7 +19,7 @@
    }
 
    .container{
-       background-color: white;
+       background-color: ivory;
        max-width: 1010px;
        min-height: 100vh;
        padding: 5px;
@@ -50,4 +50,25 @@
        font-family: sans-serif;
    }
 
-  
+  .header {
+      color: ivory;
+      text-align: center;
+      font-size: 90px;
+      font-family: 'Vidaloka', serif;
+      background-color: rgb(115,230,234);
+      padding: 18px;
+      text-shadow: 4px 4px 4px #aaa;
+  }
+
+  #about {
+      background-color:lightsalmon;
+      padding: 5px;
+      margin-top: 0.5rem;
+      text-align: center;
+      font-family: 'Vidaloka', serif;
+      font-size: 20px;
+      color: ivory;
+  }
+  body {
+      background-color: ivory;
+  }
