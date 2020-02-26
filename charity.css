@@ -77,3 +77,37 @@ h1 {
       background-color: ivory;
   }
 }
+#aboutus {
+    font-size: 45px;
+      color: ivory;
+}
+#info {
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-family: 'Arapey';
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(13, 13, 97);
+    text-align: justify;
+}
+#by {
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-family: 'Arapey';
+    font-size: 20px;
+    color: rgb(92, 92, 138);
+    text-align: right;
+}
+.donatenow {
+    margin-top: 100px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-family: 'Arapey';
+    font-size: 30px;
+    color: rgb(13, 13, 97);
+}
+#home {
+    color: rgb(13, 13, 97);
+}
