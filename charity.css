@@ -23,7 +23,8 @@
    }
 h1 {
     font-size: 40px;
-    color: pink;
+    color: salmon;
+    font-family: 'Vidaloka', serif;
 }
 
 
@@ -55,8 +56,8 @@ h1 {
 }
 #info {
     padding-top: 3rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 150px;
+    padding-right: 150px;
     font-family: 'Arapey';
     font-weight: bold;
     font-size: 20px;
@@ -65,8 +66,8 @@ h1 {
 }
 #by {
     padding-top: 1rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 150px;
+    padding-right: 150px;
     font-family: 'Arapey';
     font-size: 20px;
     color: rgb(92, 92, 138);
@@ -74,7 +75,7 @@ h1 {
 }
 .donatenow {
     margin-top: 100px;
-    padding-left: 5rem;
+    padding-left: 5px;
     padding-right: 5rem;
     font-family: 'Arapey';
     font-size: 30px;
@@ -103,7 +104,7 @@ h1 {
 
 }
 .gallery-item{
-    border: 1px solid black;
+    border: 1px solid salmon;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -121,3 +122,20 @@ h1 {
     text-align: end;
 }
 
+#www {
+    font-family: 'Arapey';
+    font-size: 20px;
+    color: rgb(13, 13, 97);
+}
+.donate {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Arapey';
+    font-size: 30px;
+    color: rgb(13, 13, 97);
+}
+.fig {
+    font-family: 'Arapey';
+    font-size: 30px;
+    color: rgb(13, 13, 97);
+}
