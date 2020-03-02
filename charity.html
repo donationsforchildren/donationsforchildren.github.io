@@ -5,17 +5,17 @@
         <link rel="stylesheet" href="charity.css"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arapey&display=swap">
+        <script  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" defer></script>
+        <script src=”/Users/nathataisaraya/Documents/GitHub/donationsforchildren.github.io/charity.js” ></script>
     </head>
     <body>
         <div class="header">
             <p>donations4children</p>
         </div>
-        <div id="menu">
-            <nav id="about">
-                <a id="home" href="/Users/nathataisaraya/Documents/GitHub/donationsforchildren.github.io/charity.html">home</a>
-                <a id="home" href="/Users/nathataisaraya/Documents/GitHub/donationsforchildren.github.io/about.html">about</a>
-            </nav>
-        </div>
+        <ul>
+            <li><a class="active" href="/Users/nathataisaraya/Documents/GitHub/donationsforchildren.github.io/charity.html">home</a></li>
+            <li><a href="/Users/nathataisaraya/Documents/GitHub/donationsforchildren.github.io/about.html">about</a></li>
+          </ul>
             <div class="container">
                 <div class="container-text">
                 <h1>Meet their story</h1>
@@ -50,5 +50,23 @@
                 <p>donate now:</p>
                 <p ><a href="https://www.justgiving.com" id="www" >www.justgiving.com</a></p>
             </div>
+<textarea id="myTextarea" rows="3"></textarea>
+<div>
+<button id="btn-post" type="button" onclick="myFunction()">comment</button>
+<div id="comment">
+    <p id="post"></p>
+</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTextarea").value;
+  var para = document.createElement("P");
+  document.getElementById("post").innerHTML = x;
+  para.innerHTML = document.getElementById("myTextarea");  
+  document.body.appendChild(p);
+}
+</script>
+
     </body>
 </html>

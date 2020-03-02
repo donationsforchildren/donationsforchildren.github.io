@@ -36,6 +36,7 @@ h1 {
       background-color: rgb(115,230,234);
       padding: 18px;
       text-shadow: 4px 4px 4px #aaa;
+      margin-bottom: 0.5rem;
   }
 
   #about {
@@ -139,3 +140,55 @@ h1 {
     font-size: 30px;
     color: rgb(13, 13, 97);
 }
+* { 
+    font-size: 100%;
+}
+textarea {
+    width: 400px
+}
+#btn-post {
+    color: rgb(13, 13, 97);
+    background-color: lightsalmon;
+    font-family: 'Vidaloka', serif;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightsalmon;
+  }
+  
+  li {
+    float: inline-end;
+  }
+  
+  li a {
+    display: block;
+    font-family: 'Vidaloka', serif;
+    color: rgb(13, 13, 97);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(177, 247, 250);
+  }
+
+  #comment {
+      background-color: rgb(201, 250, 252);
+      padding: 3rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+
+  #post {
+    font-family: 'Arapey';
+    color: rgb(13, 13, 97);
+    font-size: 120%;
+  }
