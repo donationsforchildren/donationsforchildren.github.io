@@ -2,47 +2,96 @@
 <html>
     <head>
         <title>donationsforchildren</title>
-        <link rel="stylesheet" href="charity.css"> 
+        <link rel="stylesheet" href="charity.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka">
+        <script type="text/javascript" src="charity.js"></script>
+
     </head>
     <body>
-        <div class="header">
-            <p>donations4children</p>
+        
+        <div class="nav-bar">
+            <section class="nav-bar-section">
+                <div class="lef-side">
+                    <div class="logo-area">
+                        <div class="logo">
+                            <img class="logo" src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/Donations4Children.png" width="250" height="100">
+                        </div>
+
+            </section>
         </div>
         <div id="menu">
             <nav id="about">
                 <a href="/Users/nathataisaraya/Documents/GitHub/donationsforchildren.github.io/charity.html">home</a>
                 <a href="/Users/nathataisaraya/Desktop/Code First Girls/about.html">about</a>
             </nav>
+            
             <div class="container">
                 <div class="container-text">
-                <h1>Meet their story</h1>
-            <div class="gallery">
-                <figure/figure class="gallery">
-                <figure class="gallery-item">
-                    <img src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-01-24-15-40-16.jpg" width="240" height="300">
-                    <figcaption>
-                       Bryan
-                   </figcaption>
-               </figure>
-               <figure class="gallery-item">
-                   <img src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-01-24-15-39-51.jpg" width="240" height="300">
-                   <figcaption>
-                       Alejo
-                   </figcaption>
-               </figure>
-               <figure class="gallery-item">
-                   <img src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-02-13-17-27-46.jpg" width="240" height="300">
-                   <figcaption>
-                       Daniel
-                   </figcaption>
-               </figure>
-               <figure class="gallery-item">
-                   <img src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-02-13-17-27-47.jpg" width="240" height="300">
-                   <figcaption>
-                       Lina
-                   </figcaption>
-               </figure>
+                <h1>Meet Their Story</h1>
+            <div class="slides-gallery">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img class= "circular--square" src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-01-24-15-40-16.jpg">
+                    <div class="text-names">Esteban</div>
+                </div>
+                <div class="mySlides fade">
+                   <img class= "circular--square" src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-01-24-15-39-51.jpg">
+                   <div class="text-names">Daniel</div>
+                </div>
+                <div class="mySlides fade">
+                    <img class= "circular--square" src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-02-13-17-27-46.jpg">
+                   <div class="text-names">Jose</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img class= "circular--square" src="/Users/admin/Documents/GitHub/donationsforchildren/donationsforchildren.github.io/Images/PHOTO-2020-02-13-17-27-47.jpg">
+                    <div class="text-names">Andrea</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+    
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              </div>
+
+              <div>
+                <p id="info">
+    Donations4Children is created to support young children from deprived areas in Columbia. 
+    By donating through credible organisations www.justgiving.com, you can be sure your donation is going to a good cause as your intention. 
+    We help children as shown in the profile so you can get to know them more personally in our home page.
+    <p id="by">By: Lina and Mim (Code First Girls, 2020)</p>
+                </p>
             </div>
+                 
+            </div>
+            <div class="donatenow">
+                <p>Donate Now:</p>
+                <p ><a href="https://www.justgiving.com" id="www" >www.justgiving.com</a></p>
+            </div>
+
+<textarea id="myTextarea" rows="3"></textarea>
+<div>
+<button id="btn-post" type="button" onclick="myFunction()">comment</button>
+<div id="comment">
+    <p id="post"></p>
+</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTextarea").value;
+  var para = document.createElement("P");
+  document.getElementById("post").innerHTML = x;
+  para.innerHTML = document.getElementById("myTextarea");  
+  document.body.appendChild(p);
+}
+</script>
+
     </body>
 </html>
