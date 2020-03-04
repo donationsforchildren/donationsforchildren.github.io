@@ -21,7 +21,6 @@
 
  h1 {
   font-size: 30px;
-  color: ;
   font-family: 'Vidaloka', serif;
   color: #003F5F;
  }
@@ -40,7 +39,6 @@
     font-size: 20px; 
 }
 
-{box-sizing:border-box}
 
 .container-text {
   text-align: center;
@@ -116,7 +114,7 @@ margin-left: 50px;
   width: 100%;
   text-align: center;
 }
-}
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -165,8 +163,7 @@ margin-left: 50px;
   padding-top: 3rem;
   padding-left: 150px;
   padding-right: 150px;
-  font-family: 'Arapey';
-  font-weight: bold;
+  font-family: 'Vidaloka', serif;
   font-size: 20px;
   color: #003F5F;
   text-align: justify;
@@ -175,7 +172,7 @@ margin-left: 50px;
   padding-top: 1rem;
   padding-left: 150px;
   padding-right: 150px;
-  font-family: 'Arapey';
+  font-family: 'Vidaloka', serif;
   font-size: 20px;
   color: rgb(92, 92, 138);
   text-align: right;
@@ -184,13 +181,15 @@ margin-left: 50px;
   margin-top: 100px;
   padding-left: 5px;
   padding-right: 5rem;
-  font-family: 'Arapey';
+  font-family: 'Vidaloka', serif;
   font-size: 30px;
   color: #003F5F;
+  text-align: center;
 }
 #home {
-  color: #003F5F);
+  color: #003F5F;
 }
+  
 
 #www {
   font-family: 'Arapey';
@@ -200,9 +199,10 @@ margin-left: 50px;
 .donate {
   padding-left: 70px;
   padding-right: 70px;
-  font-family: 'Arapey';
+  font-family: 'Vidaloka', serif;
   font-size: 30px;
   color: #003F5F;
+  text-align: center;
 }
 .fig {
   font-family: 'Arapey';
@@ -247,6 +247,7 @@ li a {
 
 li a:hover {
   background-color: #003F5F;
+  color: #f2f2f2;
 }
 
 #comment {
@@ -257,7 +258,9 @@ li a:hover {
 }
 
 #post {
-  font-family: 'Arapey';
-  color:#003F5F;
-  font-size: 120%;
-}
+  font-family: 'Vidaloka', serif;
+  color: #f2f2f2;
+  font-size: 70%;
+  text-align: left;
+  padding-left: 150px;
+}}
