@@ -70,6 +70,17 @@
   max-width: 1000px;
 }
 
+.heart {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 10px;
+  fill: pink;
+}
 .text-names {
 font-family: serif;
 font-size: 30px;
@@ -265,7 +276,6 @@ li a:hover {
   padding-left: 150px;
 }
 
-/* Style all font awesome icons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -274,15 +284,9 @@ li a:hover {
   text-decoration: none;
   border-radius: 50%;
 }
-
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   text-decoration: none;
   background: transparent;
